@@ -1,0 +1,8 @@
+name: Runner1
+
+on: push
+jobs:
+  init:
+    steps:
+      - run: echo 'Starting runner'
+      - run: echo $HOST_NAME
